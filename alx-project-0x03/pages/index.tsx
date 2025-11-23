@@ -3,9 +3,7 @@ import { useRouter } from "next/router";
 import { PageRouteProps } from "@/interface/index";
 
 
-interface PageRouteProps {
-  pageRoute: string
-}
+
 
 export default function Home() {
   const router = useRouter();
