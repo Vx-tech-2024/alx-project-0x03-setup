@@ -4,12 +4,9 @@ interface ButtonProps {
   buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
   action?: () => void
 }
-
 interface LayoutProps {
   children: ReactNode;
 }
-import { ReactNode } from "react";
-
 interface PageRouteProps {
   pageRoute: string
 }
